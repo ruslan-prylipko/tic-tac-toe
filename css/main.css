@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.play-field {
+	margin-left: 33%;
+	margin-top: 5%;
+	height: 490px;
+	width: 490px;
+	background: #42f54b;
+}
+
+.play-box {
+	height: 150px;
+	width: 150px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background: white;
+	background-size: 150px, 150px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.play-box:hover {
+	background: #f2f2ed;
+}
